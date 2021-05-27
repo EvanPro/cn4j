@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: auth
+  sleuth:
+    redis:
+      enabled: false
+  data:
+    redis:
+      repositories:
+        enabled: false
+    kubernetes:
+      loadbalancer:
+        mode: service
+server:
+  port: 7000
+

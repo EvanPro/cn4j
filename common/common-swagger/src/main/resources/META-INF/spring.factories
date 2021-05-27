@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.evan.cn4j.common.swagger.config.SwaggerAutoConfiguration

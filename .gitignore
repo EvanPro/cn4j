@@ -1,0 +1,11 @@
+# Project exclude paths
+/api/api-beans/target/
+/api/api-system/target/
+/auth/target/
+/common/common-core/target/
+/common/common-mp/target/
+/common/common-redis/target/
+/common/common-security/target/
+/common/common-swagger/target/
+/gateway/target/
+/modules/system/target/

@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.evan.cn4j.common.redis.configure.RedisConfig
+
+

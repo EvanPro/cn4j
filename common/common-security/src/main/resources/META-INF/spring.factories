@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.evan.cn4j.common.security.service.TokenService,\
+  com.evan.cn4j.common.security.aspect.PreAuthorizeAspect

@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: system
+  sleuth:
+    redis:
+      enabled: false
+  data:
+    redis:
+      repositories:
+        enabled: false
+server:
+  port: 8001
+
+
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-field: del_flag
+      logic-delete-value: '2'
+      logic-not-delete-value: '0'
+  type-aliases-package: com.evan.cn4j.system
+  configuration:
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
+
+sys:
+  user:
+    initPassword: 123456

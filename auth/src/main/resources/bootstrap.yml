@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    kubernetes:
+      config:
+        sources:
+          - name: auth
+            namespace: wm-test
+      reload:
+        enabled: true
+        mode: polling
+        monitoring-secrets: true

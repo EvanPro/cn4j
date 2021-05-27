@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: gateway
+  sleuth:
+    enabled: false
+  data:
+    redis:
+      repositories:
+        enabled: false
+
+server:
+  port: 8080
+
+# 不鉴权白名单
+ignore:
+  whites:
+    - /auth/logout
+    - /auth/login

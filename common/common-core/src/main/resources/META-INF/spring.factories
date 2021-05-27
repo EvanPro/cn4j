@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.evan.cn4j.common.core.handler.GlobalExceptionHandler,\
+  com.evan.cn4j.common.core.utils.SpringUtils,\
+  com.evan.cn4j.common.core.web.PageWebMvcConfigurer
+
+
