@@ -10,4 +10,4 @@
 /gateway/target/
 /modules/system/target/
 /.idea/
-/*.iml
+*.iml
